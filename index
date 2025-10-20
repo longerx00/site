@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBot - Telegram бот расписания Политеха</title>
+    <meta name="description" content="StudyBot - умный Telegram бот для расписания учебных групп вашего направления">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/bot-icon.png">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                🤖 StudyBot
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">О проекте</a></li>
+                <li><a href="#features" class="nav-link">Функции</a></li>
+                <li><a href="#how-to-use" class="nav-link">Как использовать</a></li>
+                <li><a href="#screenshots" class="nav-link">Скриншоты</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Никогда не пропустите пару с StudyBot</h1>
+            <p>Умный Telegram бот для расписания вашей учебной группы</p>
+            <div class="hero-buttons">
+                <a href="https://t.me/your_study_bot" class="btn primary" target="_blank">
+                    🚀 Запустить бота
+                </a>
+                <a href="#features" class="btn secondary">
+                    📋 Узнать больше
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="phone-mockup">
+                <div class="phone-screen">
+                    <!-- Здесь будет анимированный интерфейс бота -->
+                    <div class="bot-interface">
+                        <div class="bot-message">Привет! Выбери свою группу:</div>
+                        <div class="bot-buttons">
+                            <button class="bot-btn">Группа ПМ-21-1</button>
+                            <button class="bot-btn">Группа ПМ-21-2</button>
+                            <button class="bot-btn">Группа ПМ-21-3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О проекте -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>О проекте StudyBot</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>🎯 Цель проекта</h3>
+                    <p>Создать удобный и доступный способ получения актуального расписания для студентов нашего направления через популярный мессенджер Telegram.</p>
+                </div>
+                <div class="about-card">
+                    <h3>🤔 Проблема</h3>
+                    <p>Студенты часто сталкиваются с неактуальным расписанием, сложностями в поиске информации и отсутствием централизованной системы уведомлений.</p>
+                </div>
+                <div class="about-card">
+                    <h3>💡 Решение</h3>
+                    <p>StudyBot предоставляет мгновенный доступ к расписанию, уведомляет об изменениях и работает прямо в Telegram без установки дополнительных приложений.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Функции -->
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <h2>Возможности бота</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📅</div>
+                    <h3>Полное расписание</h3>
+                    <p>Расписание на неделю с деталями: предмет, время, аудитория, преподаватель</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Умные уведомления</h3>
+                    <p>Автоматические оповещения об изменениях в расписании и важных событиях</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Мгновенный доступ</h3>
+                    <p>Получите расписание в 2 клика без регистрации и сложных настроек</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎛️</div>
+                    <h3>Простое управление</h3>
+                    <p>Интуитивное меню с кнопками для быстрой навигации</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Быстрый поиск</h3>
+                    <p>Найдите нужную пару по предмету, преподавателю или аудитории</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Статистика</h3>
+                    <p>Полезная информация о нагрузке и распредлении пар по дням</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как использовать -->
+    <section id="how-to-use" class="section">
+        <div class="container">
+            <h2>Как начать использовать</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Перейдите в бота</h3>
+                    <p>Нажмите кнопку "Запустить бота" или найдите @your_study_bot в Telegram</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Выберите группу</h3>
+                    <p>В меню бота выберите свою учебную группу из списка</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Получите расписание</h3>
+                    <p>Используйте кнопки для просмотра расписания на сегодня, завтра или всю неделю</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Настройте уведомления</h3>
+                    <p>Включите оповещения об изменениях в настройках бота</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Скриншоты -->
+    <section id="screenshots" class="section bg-light">
+        <div class="container">
+            <h2>Скриншоты интерфейса</h2>
+            <div class="screenshots-container">
+                <div class="screenshot-item">
+                    <div class="screenshot-placeholder">
+                        📱 Главное меню
+                    </div>
+                    <p>Выбор группы и основных действий</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-placeholder">
+                        📅 Расписание на неделю
+                    </div>
+                    <p>Полное расписание с деталями</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-placeholder">
+                        ⚙️ Настройки
+                    </div>
+                    <p>Управление уведомлениями</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Есть вопросы или предложения?</h3>
+                    <p>Мы всегда рады обратной связи и готовы помочь с использованием бота</p>
+                    
+                    <div class="contact-links">
+                        <a href="https://t.me/your_study_bot" class="contact-link" target="_blank">
+                            💬 Написать в боте
+                        </a>
+                        <a href="https://t.me/developer_username" class="contact-link" target="_blank">
+                            👨‍💻 Связаться с разработчиком
+                        </a>
+                        <a href="mailto:studybot@example.com" class="contact-link">
+                            📧 Написать на почту
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="cta-box">
+                    <h3>Готовы начать?</h3>
+                    <p>Присоединяйтесь к сотням студентов, которые уже используют StudyBot</p>
+                    <a href="https://t.me/your_study_bot" class="btn primary large" target="_blank">
+                        🚀 Запустить StudyBot
+                    </a>
+                    <p class="user-count">✨ Уже используют: 250+ студентов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 StudyBot. Проект разработан для учебного направления ПМ.</p>
+            <p>Создано с ❤️ на Aiogram</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
